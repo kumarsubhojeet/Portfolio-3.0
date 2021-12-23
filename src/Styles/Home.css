@@ -1,0 +1,146 @@
+.home_main {
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 19px;
+  background:  #ebf5fb ;
+}
+.home_btn {
+  margin: 5px 5px;
+  border-radius: 19px 19px 19px 19px;
+}
+.Home_details h1 {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.Home_details h4 {
+  margin: 0 0;
+  padding: 0 0;
+  color: #2e86c1;
+  font-weight: 600;
+}
+.home_wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  height: 80vh;
+}
+.Home_left {
+  flex: 1;
+  padding-top: 80px;
+  padding-left: 25px;
+}
+.Home_right {
+  flex: 1;
+}
+.Man_image {
+  width: 100%;
+  height: 70vh;
+  margin: 0 0;
+  text-align: right;
+  object-fit: contain;
+}
+
+.social_media_home{
+  padding-top: 25px;
+  text-align: justify;
+}
+.Home_media_links{
+  margin: 7px 0;
+  padding: 10px 0;
+  font-size: 17px;
+}
+.Home_media_icon{
+  color:  #2c3e50 !important;
+}
+.about_titles{
+  height: 50px;
+  overflow: hidden;
+  padding: 9px 30px;
+  text-align: center;
+}
+.about_titles_wrapper{
+  height: 100%;   
+  text-align: center !important;
+  margin: 0 auto;
+  animation:move 10s ease-in-out infinite alternate; 
+}
+
+@keyframes move {
+  50%{
+      transform: translateY(-50px);
+  }
+  100%{
+      transform: translateY(-100px);
+  }
+  
+}
+
+.home_low_left{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.about_title-items{
+  height: 50px;
+  font-size:22px;
+  color:   #2e86c1   ;
+  display: flex;
+  font-weight: bold;
+  text-align:center !important;
+}
+
+
+@media screen and (max-width: 880px) {
+  .Home_right {
+    flex: 1;
+    display: none;
+  }
+  .home_main {
+    width: 100%;
+    margin: 10px auto;
+    border-radius: 13px;
+    background: transparent;
+    box-shadow: none;
+  }
+  .home_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    height: auto;
+  }
+  .Home_left {
+    flex: 1;
+    margin: 10px auto;
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+  .Man_image{
+    display: none;
+  }
+  .social_media_home{
+    padding-top: 10px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .Home_media{
+    margin: 0 auto !important;
+  }
+  .Home_media_links{
+    margin: 0 auto !important;
+    text-align: center;
+  }
+  .home_low_left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .about_titles{
+    display:none !important;
+  }
+}

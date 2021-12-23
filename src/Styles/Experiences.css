@@ -1,0 +1,28 @@
+.Experiences_main{
+    width: 70%;
+    margin: 25px auto;
+    text-align: justify;
+}
+.Experiences_heading{
+    text-align: center;
+}
+.suitcase{
+    height:40px;
+    width: 40px;
+}
+.Certificate{
+    width: 300px;
+    height:250px
+}
+
+@media screen and (max-width: 880px) {
+    .Experiences_main{
+        width: 90%;
+        margin: 25px auto;
+        text-align: justify;
+    }
+    .Certificate{
+        width: 100% !important;
+        height:250px
+    } 
+}

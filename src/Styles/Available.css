@@ -1,0 +1,14 @@
+.Abailable_head{
+    background: url('../img/Bubbles.svg');
+    border-radius: 39px 39px 39px 39px; 
+    background-size: cover;
+}
+.avail_h1{
+    color: #fff;
+}
+.Available_main{
+    width: 80%;
+  
+    margin: 10px auto;
+    text-align: center;
+}

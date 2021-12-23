@@ -1,0 +1,22 @@
+.Qualifications_main{
+    width: 50%;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.mortarboard{
+    height:50px;
+    width: 50px;
+}
+.college_name{
+    color: #2190F2;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 880px) {
+    .Qualifications_main{
+        width: 90%;
+        margin: 25px auto;
+        text-align: center;
+    }
+}

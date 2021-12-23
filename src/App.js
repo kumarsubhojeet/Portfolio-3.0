@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import NavBar from './Compo/NavBar'
+import Home from './Pages/Home'
+import About from './Compo/About'
+import WhyMy from './Compo/WhyMy.jsx'
+import Qualifications from './Compo/Qualifications.jsx'
+import Experiences from './Compo/Experiences.jsx'
+import Projects from './Compo/Projects.jsx'
+import Available from './Compo/Available.jsx'
+import Contact from './Compo/Contact.jsx'
+import Footer from './Compo/Footer.jsx'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar />
+      <Home />
+      <About />
+      <WhyMy />
+      <Qualifications />
+      <Experiences />
+      <Projects />
+      <Contact />
+      <Footer />
+
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
