@@ -8,9 +8,10 @@ export default function WhyMy() {
       <div className="why_me_main" id='services'>
         <div className="why_wrapper">
           <div className="skills_heading">
-            <h3>why Choose Me</h3>
-            <h4>Skills</h4>
+            <h3>Why Choose Me</h3>
+            <hr class="uk-divider-icon" />
           </div>
+          <h3 style={{margin:'10px auto'}}>Skills & Services</h3>
           <div className="skills_up">
             <div className="cards_skills">
               <div class="uk-card uk-card-default uk-card-hover uk-card-body">

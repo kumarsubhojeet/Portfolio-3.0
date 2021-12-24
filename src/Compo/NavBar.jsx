@@ -35,7 +35,7 @@ export default function NavBar() {
             <Link smooth={true} duration={1300} to="about"><li className="Links_nav_mobile">About</li></Link>
               <Link smooth={true} duration={1300} to="services"><li className="Links_nav_mobile">Services</li></Link>
               <Link smooth={true} duration={1300} to="Qualifications"><li className="Links_nav_mobile">Qualifications</li></Link>
-              <Link smooth={true} duration={1300} to="Experiesces"><li className="Links_nav_mobile">Experiesces</li></Link>
+              <Link smooth={true} duration={1300} to="Experiesces"><li className="Links_nav_mobile">Experience </li></Link>
               <Link smooth={true} duration={1300} to="project"><li className="Links_nav_mobile">Projects</li></Link>
               <Link smooth={true} duration={1300} to="Contact"><li className="Links_nav_mobile">Contact</li></Link>
             </ul>
@@ -56,7 +56,7 @@ export default function NavBar() {
           <Link smooth={true} duration={1300} to="about"><li>About</li></Link>
               <Link smooth={true} duration={1300} to="services"><li>Services</li></Link>
               <Link smooth={true} duration={1300} to="Qualifications"><li>Qualifications</li></Link>
-              <Link smooth={true} duration={1300} to="Experiesces"><li>Experiesces</li></Link>
+              <Link smooth={true} duration={1300} to="Experiesces"><li>Experience </li></Link>
               <Link smooth={true} duration={1300} to="project"><li>Projects</li></Link>
               <Link smooth={true} duration={1300} to="Contact"><li>Contact</li></Link>
           </ul>

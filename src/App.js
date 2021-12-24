@@ -1,18 +1,22 @@
-import React from 'react'
-import NavBar from './Compo/NavBar'
-import Home from './Pages/Home'
-import About from './Compo/About'
-import WhyMy from './Compo/WhyMy.jsx'
-import Qualifications from './Compo/Qualifications.jsx'
-import Experiences from './Compo/Experiences.jsx'
-import Projects from './Compo/Projects.jsx'
-import Available from './Compo/Available.jsx'
-import Contact from './Compo/Contact.jsx'
-import Footer from './Compo/Footer.jsx'
+import React , {Suspense , lazy} from 'react'
+
+const NavBar = lazy(()=>import('./Compo/NavBar'))
+const Home = lazy(()=>import('./Pages/Home'))
+const About = lazy(()=>import('./Compo/About'))
+const WhyMy = lazy(()=>import('./Compo/WhyMy'))
+const Qualifications = lazy(()=>import('./Compo/Qualifications.jsx'))
+const Experiences = lazy(()=>import('./Compo/Experiences'))
+const Projects = lazy(()=>import('./Compo/Projects'))
+const Contact = lazy(()=>import('./Compo/Contact'))
+const Footer = lazy(()=>import('./Compo/Footer'))
 
 const App = () => {
   return (
-    <div>
+    <Suspense fallback={
+      <div>
+        <div uk-spinner></div>
+      </div>
+    }>
       <NavBar />
       <Home />
       <About />
@@ -23,7 +27,7 @@ const App = () => {
       <Contact />
       <Footer />
 
-    </div>
+    </Suspense>
   )
 }
 

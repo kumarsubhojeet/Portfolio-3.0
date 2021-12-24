@@ -84,6 +84,10 @@
   margin: 10px 0;
   font-weight: bold;
 }
+.Hr_Contact{
+  width: 80%;
+  margin: 0 auto;
+}
 
 @media screen and (max-width: 480px) {
   .contact_wrapper {

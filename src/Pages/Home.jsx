@@ -11,7 +11,7 @@ export default function Home() {
         <div className="home_wrapper">
           <div className="Home_left">
             <div className="Home_details">
-              <h4>Hi, I am</h4>
+              <h4 style={{color:'#2190F2'}}>Hi, I am</h4>
               <h1 class="uk-heading-small">Subhojit Kumar</h1>
               <p>
                 I design & develope websites , mobile apps , Logos according to

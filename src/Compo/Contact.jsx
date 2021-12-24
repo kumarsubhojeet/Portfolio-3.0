@@ -30,6 +30,9 @@ export default function Contact() {
         <div>
             <div className="contact_main" id='Contact'>
                 
+                <div className="Hr_Contact">
+                <hr class="uk-divider-icon" />
+                </div>
                     <div className="contact_wrapper">
                         
                         <div className="contact_left">
