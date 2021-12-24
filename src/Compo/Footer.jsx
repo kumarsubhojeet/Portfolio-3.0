@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/Footer.css";
-import {animateScroll as  scroll} from 'react-scroll'
+import {animateScroll as  scroll , Link} from 'react-scroll'
+
 
 export default function Footer() {
   return (
@@ -22,12 +23,13 @@ export default function Footer() {
           <div className="Links_f">
             <h3 style={{color:'#fff'}}>Links</h3>
             <ul class="uk-list">
-              <li> <span uk-icon="icon:  arrow-right"></span> About</li>
-              <li> <span uk-icon="icon:  arrow-right"></span> Education</li>
-              <li> <span uk-icon="icon:  arrow-right"></span> Services</li>
-              <li> <span uk-icon="icon:  arrow-right"></span> Experiesces</li>
-              <li> <span uk-icon="icon:  arrow-right"></span> Projects</li>
-              <li> <span uk-icon="icon:  arrow-right"></span> Contact</li>
+            <Link smooth={true} duration={1300} to="about">  <li className="footer_Links"> <span uk-icon="icon:  arrow-right"></span> About</li></Link>
+            <Link smooth={true} duration={1300} to="services"><li className="footer_Links"> <span uk-icon="icon:  arrow-right"></span> Services</li></Link>
+            <Link smooth={true} duration={1300} to="Qualifications"><li className="footer_Links"> <span uk-icon="icon:  arrow-right"></span> Education</li></Link>
+            <Link smooth={true} duration={1300} to="Experiesces">  <li className="footer_Links"> <span uk-icon="icon:  arrow-right"></span> Experiesces</li></Link>
+            <Link smooth={true} duration={1300} to="project"><li className="footer_Links"> <span uk-icon="icon:  arrow-right"></span> Projects</li></Link>
+            <Link smooth={true} duration={1300} to="Contact"> <li className="footer_Links"> <span uk-icon="icon:  arrow-right"></span> Contact</li></Link>
+
             </ul>
           </div>
 
