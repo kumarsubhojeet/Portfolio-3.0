@@ -5,6 +5,8 @@ import GitEx from './img/dataImg/GE.png'
 import Wallpaper from './img/dataImg/wallpaper.jpg'
 import Crypto from './img/dataImg/Crypto.png'
 import nty from './img/dataImg/nyt.png'
+import Native from './img/Native.jpeg'
+import NativeNews from './img/Native_news.png'
 
 export const ProjectData = [
     {
@@ -65,4 +67,19 @@ export const ProjectData = [
         img:'https://thumbs.dreamstime.com/b/sticky-todo-11106198.jpg'
     }
 
+]
+
+export const MobileProjcts = [
+    {
+        name:'React Native Weather App.',
+        link:"https://github.com/kumarsubhojeet/Native-weather-App",
+        desc:'React Native Weather App.',
+        img:Native
+    },
+    {
+        name:'React Native News App.',
+        link:"https://github.com/kumarsubhojeet/React-Native-News-App",
+        desc:'React Native News App.',
+        img:NativeNews
+    }
 ]

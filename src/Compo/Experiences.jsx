@@ -59,7 +59,7 @@ export default function Experiences() {
                 <p><span style={{ color: "#2190F2", fontWeight: "600" }}>Duration:</span> December,2021 - Present </p>
 
 
-                <button class="uk-button uk-button-default" type="button">Certificate</button>
+                <button class="uk-button uk-button-default" type="button">View Certificate</button>
     <div uk-dropdown="mode: click"><img src={Mezchip} class="Certificate" alt="" /></div>
                 </div>
               </div>
@@ -96,7 +96,7 @@ export default function Experiences() {
                 
                 <p><span style={{ color: "#2190F2", fontWeight: "600" }}>Duration:</span> August,2021 - August,2021 </p>
 
-                <button class="uk-button uk-button-default" type="button">Certificate</button>
+                <button class="uk-button uk-button-default" type="button">View Certificate</button>
     <div uk-dropdown="mode: click"><img src={Probooking} class="Certificate" alt="" /></div>
                 </div>
               </div>
@@ -128,7 +128,7 @@ export default function Experiences() {
                 
                 <p><span style={{ color: "#2190F2", fontWeight: "600" }}>Duration:</span> May,2021 - August,2021 </p>
 
-                <button class="uk-button uk-button-default" type="button">Certificate</button>
+                <button class="uk-button uk-button-default" type="button">View Certificate</button>
     <div uk-dropdown="mode: click"><img src={LEAP} class="Certificate" alt="error" /></div>
 
                 </div>

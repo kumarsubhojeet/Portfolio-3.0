@@ -27,6 +27,8 @@ export default function WhyMy() {
               <div class="uk-card uk-card-default uk-card-hover uk-card-body">
                 <Progress type="circle" percent={50} />
                 <p className="progress_text">Mobile Development</p>
+                <br />
+                <p>(React Native)</p>
               </div>
             </div>
           </div>
@@ -52,6 +54,8 @@ export default function WhyMy() {
                 REACT JS
                 <Progress percent={70} />
                 MongoDB
+                <Progress percent={60} />
+                React-Native
                 <Progress percent={60} />
               </div>
             

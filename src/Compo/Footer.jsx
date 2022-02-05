@@ -38,6 +38,7 @@ export default function Footer() {
             <ul class="uk-list">
               <li> <span uk-icon="icon:  arrow-right"></span> Front-End Development</li>
               <li> <span uk-icon="icon:  arrow-right"></span> Website Design</li>
+              <li> <span uk-icon="icon:  arrow-right"></span> Mobile App Development</li>
               <li> <span uk-icon="icon:  arrow-right"></span> Logo Design</li>
               <li> <span uk-icon="icon:  arrow-right"></span> Back-End Development</li>
               <li> <span uk-icon="icon:  arrow-right"></span> Data Base Management</li>

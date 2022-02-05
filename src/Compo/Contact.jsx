@@ -43,7 +43,7 @@ export default function Contact() {
                             <div className="contact-info">
                                 <div className="c_items">
                                     <img src={Phone} className='c_icon' alt="Error" />
-                                    +123 456 789
+                                    +91 7903942889
                                 </div>
 
                                 <div className="c_items">
